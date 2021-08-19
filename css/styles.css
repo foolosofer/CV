@@ -1,19 +1,38 @@
+/*this is a comment*/
 body {
-    background-color: #FFE2E2;
+    background-color: #FDEFEF;
 }
 
+/*sort the selectors in alphabetical order by convention*/
 hr {
     background-color: none;
+    border-color: #512D6D;
     border-style: dotted none none;
     width: 15%;
     border-width: 4px;
-    border-color: #512D6D;
 }
 
-h1 {
+/*combining selectors*/
+h1, h3 {
     color: #512D6D;
 }
 
-h3 {
-    color: #512D6D;
+img {
+    border-radius: 30% 10%;
+    height: 200px;
+}
+
+/*class*/
+a:hover {
+    color: blue;
+}
+
+/*pseudo-class*/
+.link:link {
+    color: purple;
+}
+
+/*id*/
+#submit_name_button:hover {
+    color: blue;
 }
